@@ -5,6 +5,7 @@ function init (){
       var sampleNames=data.names;
       sampleNames.forEach((sample) => {
           selector
+          
             .append("option")
             .text(sample)
             .property("value", sample);
